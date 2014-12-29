@@ -1,0 +1,6 @@
+ADD_EXECUTABLE( get_begin_sequence get_begin_sequence.cpp )
+target_link_libraries( get_begin_sequence ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY} )
+add_test( get_begin_sequence, get_begin_sequence )
+ADD_EXECUTABLE( get_end_sequence get_end_sequence.cpp )
+target_link_libraries( get_end_sequence ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY} )
+add_test( get_end_sequence, get_end_sequence )
